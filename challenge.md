@@ -56,8 +56,8 @@ Create a script where you declare a variable with a student's data
 and fill them in with the student's information.
 
 <!--const studentData = {
-  name: 'John Doe',
-  age: 20,
+  name: 'Alvaro Herranz',
+  age: 19,
   photoUrl: 'https://www.example.com/photos/example.jpg'
 };
 
@@ -71,3 +71,4 @@ if (studentNameElement && studentAgeElement && studentPhotoElement) {
   studentPhotoElement.src = studentData.photoUrl;
   studentPhotoElement.alt = `Photo of ${studentData.name}`;
 } -->
+
