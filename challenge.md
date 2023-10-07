@@ -4,19 +4,19 @@
 
    - How would you select from JavaScript an element `p` that has the class `text` and also the class `important`?
    
-   <!-- const post = document.querySelector('.important'); -->
+   const post = document.querySelector('.important');
 
    - How would you select from JavaScript a `button` element with class `button` and that is disabled?
 
-   <!-- const button = document.querySelector('button.button[disabled]'); -->
+   const button = document.querySelector('button.button[disabled]');
 
    - How would you select from JavaScript all the `li` elements that are direct children of an `ul` element with class `list`?
 
-   <!-- const list = document.querySelectorAll('ul.list>li'); -->
+   const list = document.querySelectorAll('ul.list>li');
 
    - How would you select from JavaScript all the `input` elements that are descendants of a `form` element with class `form-new-item`, and that have a `type` attribute with a value `text`?
 
-   <!-- const input = document.querySelectorAll('from.from-new-item input[text]') -->
+   const input = document.querySelectorAll('from.from-new-item input[text]')
 
    
 
@@ -34,12 +34,12 @@
   </section>
 </main>
 ```
-<!-- const subtitleHeader = document.querySelector('.subtitle');
+ const subtitleHeader = document.querySelector('.subtitle');
 
 if (subtitleHeader) {
   subtitleHeader.textContent = 'The MEAN stack';
   subtitleHeader.classList.remove('subtitle');
-}-->
+}
 
 3. Here you have an HTML without data:
 
@@ -55,7 +55,7 @@ Create a script where you declare a variable with a student's data
 (name, age and photo URL). Next, get the elements from the HTML
 and fill them in with the student's information.
 
-<!--const studentData = {
+const studentData = {
   name: 'Alvaro Herranz',
   age: 19,
   photoUrl: 'https://www.example.com/photos/example.jpg'
@@ -70,5 +70,5 @@ if (studentNameElement && studentAgeElement && studentPhotoElement) {
   studentAgeElement.textContent = studentData.age;
   studentPhotoElement.src = studentData.photoUrl;
   studentPhotoElement.alt = `Photo of ${studentData.name}`;
-} -->
+}
 
